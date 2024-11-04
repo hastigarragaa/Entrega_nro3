@@ -1,32 +1,75 @@
-Entrega 1
-Deberás hacer entrega de tu proyecto donde aparezca: Wireframe/prototipo (wireframe de todas tus páginas para vista mobile y desktop) + HTML (uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto) + CSS (con modificadores de texto, colores, y listas)
+Entrega 2
+Para poner en práctica todos los conocimientos adquiridos, te proponemos avanzar con la estructura avanzada y el uso colaborativo con GitHub.
 
 Objetivos
-Prototipar la web para tener una idea clara del resultado al que quieres llegar.
+Realizar una estructura avanzada de la web.
 
-Maquetar la web: utilizar los tags, en especial los semánticos, para describir la estructura de la web desde el código.
+Efectuar el estilo avanzado de la web.
 
-Crear un estilo inicial: comenzar a darle estilo básico a la web.
+Generar la carga en un repositorio en GitHub.
 
-Aclaraciones y sugerencias
-Debe tener el nombre “PreEntrega1+Apellido”
+Requisitos
+Este trabajo cuenta con tres instancias (puedes compartir la URL de tu repositorio de GitHub con las tres):
 
-Activar comentarios en el archivo
+Estructura del HTML avanzada
+Realizar una estructura del HTML prolija, limpia y fácil de leer.
 
-Se debe entregar
-Prototipo de la web: versión que muestre cómo se verá el sitio cuando esté productivo. Crear una estructura donde se organicen los elementos que van a estar en la web. El nivel de detalle no es importante, sino más bien las posiciones que los elementos van a tener y su tamaño aproximado. Formato: Archivo PDF o de Imagen
+Agregar elementos HTML según la necesidad de armar contenedores o elementos web determinados, basándose en el framework elegido y la documentación del mismo.
 
-Estructura inicial de la web en HTML: llevar el contenido a la estructura HTML haciendo uso de los tags que corresponden para el contenido a insertar. Incluyendo: etiquetas semánticas (tags semánticos de HTML5), contenido (agregar etiquetas que van a servir para denotar dónde va a haber contenido como imágenes, párrafos y titulares) y páginas (incluir las secciones del sitio ya maquetadas con la estructura propia de cada página) Formato: Archivos HTML
+Usar Bootstrap o Grids + Flexbox.
 
-Estilo inicial de la web en CSS: comenzar a darle estilo básico a una página de su sitio web (ej: index.html) aplicando con CSS las propiedades vistas hasta el momento para modificar textos, encabezados, img, colores, background) El documento debe estar linkeado en las páginas del proyecto. Formato: Archivo CSS Box modelling y Flexbox no deben incluirse en esta entrega.*
+Las estructuras se deberán maquetar a la web basándose en el framework elegido, haciendo uso de clases utilitarias para armar grillas, elementos web y estilos propios del framework, además del HTML de contenido.
+
+Todas las páginas deben tener el contenido estructurado y el estilo linkeado.
+
+Agregar las diferentes librerías de JavaScript y CSS pertinentes al framework.
+
+La estructura debe ser entregada en uno o varios archivos HTML según tu proyecto.
+
+
+Archivo de CSS con propiedades avanzadas
+Tu archivo CSS debe contar con las siguientes características:
+Estilo del Framework: No todos los elementos del framework van a tener una estética que condice con el sitio en el que son implementados, por lo que se usará CSS para darles un estilo acorde.
+
+Estructura de la web: Uso de etiquetas no solo para armar contenido, sino para armar los elementos que van a conformar el layout de la web, los contenedores, etc.
+
+
+Las propiedades avanzadas deben ser entregadas en un archivo CSS.
+
+
+Git y GitHub para brindar acceso al proyecto versionado
+Tu repositorio debe contener:
+Archivos: Todos los archivos necesarios para visualizar correctamente la web.
+
+Historial de versionado: Mostrar los commits usados para actualizar/versionar el código.
+
+
+El acceso al repositorio de GitHub debe ser proporcionado mediante la URL pública del mismo.
+
+
+Diseñando nuestra página web desde cero: prototipado, maquetado y estilización inicial
+
+Recomendaciones
+
+Asegúrate de optimizar tu sitio web para la velocidad y la eficiencia. Utiliza técnicas como la compresión de archivos, el uso de CDN (Content Delivery Network) y la optimización de imágenes para garantizar que tu sitio web cargue rápidamente y se ejecute sin problemas.
+
+Cuando cargues tu sitio web en GitHub, asegúrate de seguir buenas prácticas de control de versiones. Utiliza ramas separadas para nuevas características o correcciones de errores, y documenta cuidadosamente los cambios que realizas.
+
+Asegúrate de probar tu sitio web en diferentes navegadores y dispositivos para garantizar que se vea y funcione correctamente para todos los usuarios. Utiliza herramientas como BrowserStack o CrossBrowserTesting para simplificar el proceso de pruebas de compatibilidad de navegadores.
 
 Criterios de evaluación
-Prototipado (Wireframe) Se muestra una estructura ordenada que se condice con una navegación clara. El diseño es claro y se presenta para vista mobile y desktop.
+Estructura avanzada de la web (HTML) - Prolijidad y Tags Prolijidad del código: presenta tabulaciones correctas y ordenadas, denotando jerarquía entre los elementos. El uso de comentarios es correcto: se usan de forma pragmática para saber dónde comienzan y/o terminan secciones. Tags: el nesting es óptimo, Se observa un uso de tags semánticos correcto y estructuración de la página desde el HTML. El alt de las imágenes es pertinente y descriptivo.
 
-Maquetado (HTML) - Código El código es prolijo, las tabulaciones y/o nuevas líneas marcan de forma correcta la jerarquía de padre/hijo. El nesting es correcto, entiende claramente el uso del mismo para darle jerarquía y estructura a los elementos.
+Estructura avanzada de la web (HTML) - Estilo y funcionalidad Estilo: Se observa un uso de nombres de clases correcto, sin caer en clases redundantes o irrelevantes. Funcionalidad: Las páginas tienen enlaces funcionales. Las imágenes están bien cargadas y resultan pertinentes. Las rutas relativas son correctas.
 
-Maquetado (HTML) - Estilo y Funcionalidad Estilo: la hoja de estilos está bien linkeada y en las misma se encuentra todo el CSS. Reutiliza clases y utiliza nombres de clase consistentes. Los enlaces a las secciones funcionan correctamente. Las imágenes están bien cargadas, las rutas relativas son correctas.
+Estructura avanzada de la web (HTML) - Contenido Contenido: la información está correctamente estructurada, usando los tags correctos para cada tipo de contenido, ya sean tablas, listas, titulares, párrafos o imágenes. El contenido se distribuye de forma no monótona y tiene varios niveles de lectura? ¿Las imágenes tienen un tamaño apropiado al que ocupan en el contenido?
 
-Estilo inicial (CSS) El código es consistente en el uso de tabulaciones, declaraciones de reglas y de espacios entre los elementos. CSS: Recicla el código de forma óptima, las reglas de CSS que utiliza son correctas para el elemento en el que las utiliza. Le da estilo a elementos a través de selectores e IDs según lo requiera.
+Estilo avanzado de la web (CSS) - Código y diseño de la estructura visual El contenido se distribuye de forma no monótona y tiene varios niveles de lectura? ¿Las imágenes tienen un tamaño apropiado al que ocupan en el contenido?
 
-Correspondencia entre Maqueta y Prototipo El diseño de la web usa correctamente los elementos básicos para reflejar el diseño web prototipado originalmente.
+Estilo avanzado de la web (CSS) - Estilo de diseño web Hay una paleta de colores con contrastes pertinentes y se respeta a lo largo de las páginas del sitio web. El texto es legible. Hay un elemento que evita que el contenido vaya hasta los bordes de la pantalla y está alineado ¿Evita que se genere overflow-x?
+
+Estilo avanzado de la web (CSS) - Prolijidad del código Prolijidad del código: ¿El uso de tabulaciones es correcto? ¿Hace buen uso de los selectores para evitar repetir código.
+
+Estilo avanzado de la web (CSS) - Entendimiento del CSS Entendimiento del CSS: Expande sobre elementos que ya había creado con clases que los modifican. Genera estilos que son fáciles de cambiar o transformar para diferentes tamaños de dispositivo.
+
+Repositorio en GitHub Utilización de Git: Realiza cambios pertinentes a un grupo de mejoras y las commitea. Genera branches en caso de tener que testear algo experimental y luego hace el merge a main. Utiliza .gitignore para no versionar los archivos o directorios que no son requeridos. Utilización de GitHub: Utiliza Github Pages para su trabajo.
