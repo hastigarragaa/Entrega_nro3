@@ -39,7 +39,7 @@
   background: rgba(0, 0, 0, 0.5); 
   padding: 10px;
   border-radius: 8px;
-  width: 70%;
+  width: 50%;
   position: absolute;  
   bottom: 20px;
   left: 50%;
@@ -96,8 +96,7 @@
     object-fit: contain;  
   }
   
-  .carousel-caption {
-    width: 50%;      
+  .carousel-caption {     
     bottom: 3%;      
     padding: 6px;    
     
