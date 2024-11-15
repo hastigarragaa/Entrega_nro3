@@ -39,19 +39,19 @@
   padding: 10px;
   border-radius: 8px;
   width: 70%;
-  position: absolute;  // Asegura que se posicione sobre la imagen
-  bottom: 20px; // Ajustamos el posicionamiento vertical
+  position: absolute;  
+  bottom: 20px;
   left: 50%;
-  transform: translateX(-50%); // Centramos el caption horizontalmente
+  transform: translateX(-50%);
   text-align: center; 
-  z-index: 1;  // Asegura que el caption esté por encima de la imagen
+  z-index: 1;
 }
 
 
 .carousel-caption h5 {
   margin-bottom: 10px;
   color: $white-color;
-  font-size: 1.2rem; // Reducir el tamaño de la fuente en pantallas pequeñas
+  font-size: 1.2rem; 
 
   
 }
@@ -86,29 +86,27 @@
 
 @include media(small) {
   .carousel-item {
-    padding: 0 10px; // Reducir el padding en pantallas más pequeñas
-    
+    padding: 0 10px;     
     
   }
   .carousel-item img {
     width: 100%;           
-    object-fit: contain;  // Asegura que la imagen se ajuste sin recortarse
+    object-fit: contain;  
   }
   
   .carousel-caption {
-    width: 70%;      // Ajusta el tamaño del caption en pantallas pequeñas
-    bottom: 3%;      // Coloca el caption más cerca de la parte inferior en pantallas pequeñas
-    padding: 6px;    // Reduce el padding del caption
+    width: 70%;      
+    bottom: 3%;      
+    padding: 6px;    
     
   }
   
   .carousel-caption h5 {
-    font-size: 1.2rem; // Reducir el tamaño de la fuente en pantallas pequeñas
-  
+    font-size: 1.2rem; 
   }
   
   .carousel-caption a {
-    padding: 0.5rem ; // Hacer los botones más pequeños en móviles
+    padding: 0.5rem ; 
     background-color: $primary-color;
     color: $white-color;
     text-decoration: none;
