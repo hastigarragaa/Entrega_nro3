@@ -98,16 +98,20 @@
   
   .carousel-caption {     
     bottom: 3%;      
-    padding: 6px;    
+    padding: 2px; 
+    width: 30px;   
     
   }
   
   .carousel-caption h5 {
-    font-size: 1.2rem; 
+    font-size: 0.8rem; 
+    margin-bottom: 2px;
+    max-width: fit-content;
+    display: contents;
   }
   
   .carousel-caption a {
-    padding: 0.5rem ; 
+    padding: 0.3rem ; 
     background-color: $primary-color;
     color: $white-color;
     text-decoration: none;
@@ -124,5 +128,6 @@
     border-radius: 50%;
   }
 }
+
 
 
