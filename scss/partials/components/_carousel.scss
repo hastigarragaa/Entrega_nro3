@@ -14,8 +14,9 @@
 }
 
 .carousel-item img {
-  width: 750px;
-  height: 450px; 
+  width: 100%;
+  max-width: 750px; 
+  height: auto;
   object-fit: cover; 
   margin: 0 auto;           
 }
@@ -26,7 +27,7 @@
 .carousel-item {
   
   padding: 0 150px; 
-  border: 2px solid #ccc; 
+  border: 2px solid $light-color; 
   border-radius: $border-radius; 
   box-shadow: $box-shadow; 
   transition: none; // Desactiva la transición de Bootstrap
@@ -81,6 +82,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  
   
 }
 
