@@ -1,0 +1,128 @@
+@use '../base/variables' as *;  
+@use '../base/mixins' as *; 
+
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.carousel-item img {
+  width: 750px;
+  height: 450px; 
+  object-fit: cover; 
+  margin: 0 auto;           
+}
+.carousel-inner {
+  text-align: center;
+  
+}
+.carousel-item {
+  
+  padding: 0 150px; 
+  border: 2px solid #ccc; 
+  border-radius: $border-radius; 
+  box-shadow: $box-shadow; 
+  transition: none; // Desactiva la transición de Bootstrap
+  animation: slideIn 1s ease-in-out;
+  
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 10px;
+  border-radius: 8px;
+  width: 70%;
+  position: absolute;  // Asegura que se posicione sobre la imagen
+  bottom: 20px; // Ajustamos el posicionamiento vertical
+  left: 50%;
+  transform: translateX(-50%); // Centramos el caption horizontalmente
+  text-align: center; 
+  z-index: 1;  // Asegura que el caption esté por encima de la imagen
+}
+
+
+.carousel-caption h5 {
+  margin-bottom: 10px;
+  color: $white-color;
+  font-size: 1.2rem; // Reducir el tamaño de la fuente en pantallas pequeñas
+
+  
+}
+
+.carousel-caption a {
+  padding: 0.5rem 1.5rem;
+  background-color: $primary-color;
+  color: $white-color;
+  text-decoration: none;
+  border-radius: 8px;
+  
+}
+
+.carousel-caption a:hover {
+  background-color: $accent-color;
+}
+.carousel-control-prev {
+  left: 0; 
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: $primary-color;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+
+@include media(small) {
+  .carousel-item {
+    padding: 0 10px; // Reducir el padding en pantallas más pequeñas
+    
+    
+  }
+  .carousel-item img {
+    width: 100%;           
+    object-fit: contain;  // Asegura que la imagen se ajuste sin recortarse
+  }
+  
+  .carousel-caption {
+    width: 70%;      // Ajusta el tamaño del caption en pantallas pequeñas
+    bottom: 3%;      // Coloca el caption más cerca de la parte inferior en pantallas pequeñas
+    padding: 6px;    // Reduce el padding del caption
+    
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.2rem; // Reducir el tamaño de la fuente en pantallas pequeñas
+  
+  }
+  
+  .carousel-caption a {
+    padding: 0.5rem ; // Hacer los botones más pequeños en móviles
+    background-color: $primary-color;
+    color: $white-color;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 25px;         
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+}
+
+
