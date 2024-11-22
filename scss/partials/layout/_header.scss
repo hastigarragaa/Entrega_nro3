@@ -17,9 +17,7 @@ header {
   color: $white-color;
   padding: 4rem 0;
   text-align: center;
-}
 
-header {
   h1 {
     font-size: 4.5rem;
     font-weight: 700;
@@ -27,6 +25,7 @@ header {
     animation: fadeIn 2s ease-in-out forwards;
   }
 }
+
 // header p {
 //   font-size: 2rem;
 //   font-weight: 300;

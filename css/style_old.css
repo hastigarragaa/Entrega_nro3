@@ -76,7 +76,7 @@ main p {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.carousel-item img {
+/* .carousel-item img {
   width: 750px;
   height: 450px; 
   object-fit: cover; 
@@ -133,7 +133,7 @@ main p {
   height: 30px;
   border-radius: 50%;
   
-}
+} */
 
 footer {
   background-color: #333;

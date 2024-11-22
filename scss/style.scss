@@ -1,14 +1,15 @@
 @use 'partials/base/variables' as *;    
 @use 'partials/base/reset' as *;             
+@use 'partials/base/mixins' as *;
 @use 'partials/layout/header' as *;            
 @use 'partials/layout/navbar' as *;           
-@use 'partials/views/main' as *;             
-@use 'partials/components/carousel' as *;          
 @use 'partials/layout/footer' as *;            
-@use 'partials/components/form' as *;            
+@use 'partials/views/main' as *;             
 @use 'partials/views/media' as *;          
+@use 'partials/components/form' as *;            
 @use 'partials/components/container' as *;
-@use 'partials/base/mixins' as *;
+@use 'partials/components/cards' as *;
+// @use 'partials/components/carousel' as *;          
 
 
 body {
