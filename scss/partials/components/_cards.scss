@@ -8,14 +8,14 @@
     margin-top: 2rem;
     flex-wrap: wrap;
 
-.card {
-    background-color: $white-color;
-    border-radius: $border-radius;
-    box-shadow: $box-shadow;
-    width: 280px;
-    text-align: center;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    .card {
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+        width: 280px;
+        text-align: center;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: $white-color;
 
     &:hover {
         transform: translateY(-10px);
@@ -26,6 +26,10 @@
         object-fit: cover;
         width: 100%;
         border-radius: 8px;
+
+        iframe {
+            border: none;  // Elimina el borde del iframe
+        }
     }
     
     img {
